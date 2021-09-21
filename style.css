@@ -69,10 +69,13 @@ img{
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
+    cursor: pointer;
 }
 .choice:hover{
-    cursor: pointer;
     border: 2px solid white;
+}
+.choice-not{
+    cursor: not-allowed;
 }
 #action-message{
     font-weight: bold;  
@@ -114,4 +117,25 @@ img{
 }
 .hidden{
     display: none;
+}
+.green-glow{
+    border: 5px solid#4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.red-glow{
+    border: 5px solid#fc1221;
+    box-shadow: 0 0 10px #d01115;
+    border-radius: 50%;
+
+}
+.gray-glow{
+    border: 5px solid#464647;
+    box-shadow: 0 0 10px #25292b;
+    border-radius: 50%;
+
 }
